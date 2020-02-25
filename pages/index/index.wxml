@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<button class = 'begininfo'  catchtap="beginAnswer">
+    <image class='background' src="../index/start.png" mode="aspectFill"></image>
+ </button>

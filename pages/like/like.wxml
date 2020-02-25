@@ -1,0 +1,17 @@
+
+   <!--> <scroll-view scroll-y="true">
+      <van-cell wx:for="{{cal}}" wx:for-index="idx"
+        wx:if="{{idx==show[idx]}}" class="item-container"    
+        bindtap="showDetail" id="{{idx}}" 
+        title="{{item.meta.title}}" is-link />
+    </scroll-view>-->
+<view wx:for="{{show}}" wx:for-index="num">
+    <scroll-view scroll-y="true">
+      <van-cell wx:for="{{cal}}" wx:for-index="idx"
+        wx:if="{{idx==show[num]}}" class="item-container"    
+        bindtap="showDetail" id="{{idx}}" 
+        title="{{item.meta.title}}" is-link />
+    </scroll-view>
+</view>
+
+ 

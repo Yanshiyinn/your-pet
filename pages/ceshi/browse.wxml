@@ -1,0 +1,186 @@
+<view class="nope" wx:if="{{exist==0}}">
+  <text>没有同时符合条件的宠物。</text>
+</view>
+<view wx:else>
+  <view wx:if="{{items[0].flag==1}}">
+    <scroll-view scroll-y="true">
+      <van-cell wx:for="{{cal}}" wx:for-index="idx"
+        wx:if="{{idx==0}}" class="item-container"    
+        bindtap="showDetail" id="{{idx}}" 
+        title="{{item.meta.title}}" is-link />
+    </scroll-view>
+  </view>
+
+  <view wx:if="{{items[1].flag==1}}">
+    <scroll-view scroll-y="true">
+      <van-cell wx:for="{{cal}}" wx:for-index="idx"
+        wx:if="{{idx==1}}" class="item-container"    
+        bindtap="showDetail" id="{{idx}}" 
+        title="{{item.meta.title}}" is-link />
+    </scroll-view>
+  </view>
+
+  <view wx:if="{{items[2].flag==1}}">
+    <scroll-view scroll-y="true">
+      <van-cell wx:for="{{cal}}" wx:for-index="idx"
+        wx:if="{{idx==2}}" class="item-container"    
+        bindtap="showDetail" id="{{idx}}" 
+        title="{{item.meta.title}}" is-link />
+    </scroll-view>
+  </view>
+
+  <view wx:if="{{items[3].flag==true}}">
+    <scroll-view scroll-y="true">
+      <van-cell wx:for="{{cal}}" wx:for-index="idx"
+        wx:if="{{idx==3}}" class="item-container"    
+        bindtap="showDetail" id="{{idx}}" 
+        title="{{item.meta.title}}" is-link />
+    </scroll-view>
+  </view>
+
+  <view wx:if="{{items[4].flag==true}}">
+    <scroll-view scroll-y="true">
+      <van-cell wx:for="{{cal}}" wx:for-index="idx"
+        wx:if="{{idx==4}}" class="item-container"    
+        bindtap="showDetail" id="{{idx}}" 
+        title="{{item.meta.title}}" is-link />
+    </scroll-view>
+  </view>
+
+  <view wx:if="{{items[5].flag==true}}">
+    <scroll-view scroll-y="true">
+      <van-cell wx:for="{{cal}}" wx:for-index="idx"
+        wx:if="{{idx==5}}" class="item-container"    
+        bindtap="showDetail" id="{{idx}}" 
+        title="{{item.meta.title}}" is-link />
+    </scroll-view>
+  </view>
+
+  <view wx:if="{{items[6].flag==true}}">
+    <scroll-view scroll-y="true">
+      <van-cell wx:for="{{cal}}" wx:for-index="idx"
+        wx:if="{{idx==6}}" class="item-container"    
+        bindtap="showDetail" id="{{idx}}" 
+        title="{{item.meta.title}}" is-link />
+    </scroll-view>
+  </view>
+
+
+  <view wx:if="{{items[7].flag==true}}">
+    <scroll-view scroll-y="true">
+      <van-cell wx:for="{{cal}}" wx:for-index="idx"
+        wx:if="{{idx==7}}" class="item-container"    
+        bindtap="showDetail" id="{{idx}}" 
+        title="{{item.meta.title}}" is-link />
+    </scroll-view>
+  </view>
+
+
+  <view wx:if="{{items[8].flag==true}}">
+    <scroll-view scroll-y="true">
+      <van-cell wx:for="{{cal}}" wx:for-index="idx"
+        wx:if="{{idx==8}}" class="item-container"    
+        bindtap="showDetail" id="{{idx}}" 
+        title="{{item.meta.title}}" is-link />
+    </scroll-view>
+  </view>
+
+  <view wx:if="{{items[9].flag==true}}">
+    <scroll-view scroll-y="true">
+      <van-cell wx:for="{{cal}}" wx:for-index="idx"
+        wx:if="{{idx==9}}" class="item-container"    
+        bindtap="showDetail" id="{{idx}}" 
+        title="{{item.meta.title}}" is-link />
+    </scroll-view>
+  </view>
+
+  <view wx:if="{{items[10].flag==true}}">
+    <scroll-view scroll-y="true">
+      <van-cell wx:for="{{cal}}" wx:for-index="idx"
+        wx:if="{{idx==10}}" class="item-container"    
+        bindtap="showDetail" id="{{idx}}" 
+        title="{{item.meta.title}}" is-link />
+    </scroll-view>
+  </view>
+
+  <view wx:if="{{items[11].flag==true}}">
+    <scroll-view scroll-y="true">
+      <van-cell wx:for="{{cal}}" wx:for-index="idx"
+        wx:if="{{idx==11}}" class="item-container"    
+        bindtap="showDetail" id="{{idx}}" 
+        title="{{item.meta.title}}" is-link />
+    </scroll-view>
+  </view>
+
+  <view wx:if="{{items[12].flag==true}}">
+    <scroll-view scroll-y="true">
+      <van-cell wx:for="{{cal}}" wx:for-index="idx"
+        wx:if="{{idx==12}}" class="item-container"    
+        bindtap="showDetail" id="{{idx}}" 
+        title="{{item.meta.title}}" is-link />
+    </scroll-view>
+  </view>
+
+  <view wx:if="{{items[13].flag==true}}">
+    <scroll-view scroll-y="true">
+      <van-cell wx:for="{{cal}}" wx:for-index="idx"
+        wx:if="{{idx==13}}" class="item-container"    
+        bindtap="showDetail" id="{{idx}}" 
+        title="{{item.meta.title}}" is-link />
+    </scroll-view>
+  </view>
+
+  <view wx:if="{{items[14].flag==true}}">
+    <scroll-view scroll-y="true">
+      <van-cell wx:for="{{cal}}" wx:for-index="idx"
+        wx:if="{{idx==14}}" class="item-container"    
+        bindtap="showDetail" id="{{idx}}" 
+        title="{{item.meta.title}}" is-link />
+    </scroll-view>
+  </view>
+
+  <view wx:if="{{items[15].flag==true}}">
+    <scroll-view scroll-y="true">
+      <van-cell wx:for="{{cal}}" wx:for-index="idx"
+        wx:if="{{idx==15}}" class="item-container"    
+        bindtap="showDetail" id="{{idx}}" 
+        title="{{item.meta.title}}" is-link />
+    </scroll-view>
+  </view>
+
+  <view wx:if="{{items[16].flag==true}}">
+    <scroll-view scroll-y="true">
+      <van-cell wx:for="{{cal}}" wx:for-index="idx"
+        wx:if="{{idx==16}}" class="item-container"    
+        bindtap="showDetail" id="{{idx}}" 
+        title="{{item.meta.title}}" is-link />
+    </scroll-view>
+  </view>
+
+  <view wx:if="{{items[17].flag==true}}">
+    <scroll-view scroll-y="true">
+      <van-cell wx:for="{{cal}}" wx:for-index="idx"
+        wx:if="{{idx==17}}" class="item-container"    
+        bindtap="showDetail" id="{{idx}}" 
+        title="{{item.meta.title}}" is-link />
+    </scroll-view>
+  </view>
+
+  <view wx:if="{{items[18].flag==true}}">
+    <scroll-view scroll-y="true">
+      <van-cell wx:for="{{cal}}" wx:for-index="idx"
+        wx:if="{{idx==18}}" class="item-container"    
+        bindtap="showDetail" id="{{idx}}" 
+        title="{{item.meta.title}}" is-link />
+    </scroll-view>
+  </view>
+
+  <view wx:if="{{items[19].flag==true}}">
+    <scroll-view scroll-y="true">
+      <van-cell wx:for="{{cal}}" wx:for-index="idx"
+        wx:if="{{idx==19}}" class="item-container"    
+        bindtap="showDetail" id="{{idx}}" 
+        title="{{item.meta.title}}" is-link />
+    </scroll-view>
+  </view>
+</view>

@@ -1,0 +1,12 @@
+<!--pages/result/result.wxml-->
+    <image class='background' src="../about/a1.jpg" mode="aspectFill"></image>
+
+<view class="trytest">
+  <!--<view><text>R:{{R}}</text></view>-->
+  <text>{{text0}}</text>
+  <view>
+    <text style='font-weight:bold;font-size:16px'>适合您的狗狗：{{Kind}}</text>
+  </view>
+  <text>{{text0}}</text>
+  <view><text>{{Discribe}}</text></view>
+</view>

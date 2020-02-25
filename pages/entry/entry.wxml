@@ -1,0 +1,30 @@
+
+    <image class='background' src="../about/a1.jpg" mode="aspectFill"></image>
+<image  src="{{picid}}" mode="aspectFill" class="ant">  </image>  
+<template name="content-item">
+  <block wx:if="{{content.type == 'TEXT'}}">
+    <view style="margin-top:30rpx">
+      <text wx:if="{{content.type == 'TEXT'}}" class="text">{{content.content}}</text>
+    </view>
+  </block>
+  <template is="content-footer" data="{{content}}"></template>
+</template>
+
+<scroll-view scroll-y="true">
+<!-->
+<view class="tag">
+<text>{{text0}}</text>
+<text>{{text0}}</text>
+<text>{{text0}}</text>
+<van-tag color="#ff9800">长毛</van-tag>
+<text style="white-space:pre-wrap">{{text1}}</text>
+<text style="white-space:pre-wrap">{{text1}}</text>
+<van-tag color="#ff9800">温顺</van-tag>
+</view>
+-->
+<view class="container">
+  <view wx:for="{{cal.list}}" wx:for-item="content" class="content">
+    <template is="content-item" data="{{content}}"></template>
+  </view>
+</view>
+</scroll-view>

@@ -1,0 +1,239 @@
+<!--index.wxml-->
+<!--<view class="container">
+
+<form bindsubmit="formSubmit" bindreset="formReset">
+
+  <view class="section section_gap">
+    <checkbox-group name="checkbox">
+      <label class="checkbox" wx:for="{{items}}">
+        <checkbox value="{{item.name}}" checked="{{item.checked}}"/>{{item.name}}
+      </label>-->
+<view class="wholesection">
+<view>
+  <text>{{text0}}</text>
+  <text>{{text0}}</text>
+  <text>{{text0}}</text>
+  <text>{{text0}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text class="sectiontext">你喜欢的宠物类型是……</text>
+  <text>{{text0}}</text>
+  <text>{{text0}}</text>
+</view>
+<view class="section">      
+<view class="margincontent"
+  style="background:{{bgcolor1}};color:{{textcolor1}}"
+  catchtap="changeColor1">
+长毛
+</view>
+<view class="margincontent" 
+  style="background:{{bgcolor2}};color:{{textcolor2}};"
+  catchtap="changeColor2">
+短毛
+</view>
+<view class="margincontent" 
+  style="background:{{bgcolor3}};color:{{textcolor3}};"
+  catchtap="changeColor3">
+无毛
+</view>
+</view>
+
+<view class="section">
+<view class="margincontent" 
+  style="background:{{bgcolor4}};color:{{textcolor4}};"
+  catchtap="changeColor4">
+大型
+</view>
+<view class="margincontent" 
+  style="background:{{bgcolor5}};color:{{textcolor5}};"
+  catchtap="changeColor5">
+中型
+</view>
+<view class="margincontent" 
+  style="background:{{bgcolor6}};color:{{textcolor6}};"
+  catchtap="changeColor6">
+小型
+</view>
+</view>
+
+<view class="section">
+<view class="margincontent" 
+  style="background:{{bgcolor7}};color:{{textcolor7}};"
+  catchtap="changeColor7">
+温顺
+</view>
+<view class="margincontent" 
+  style="background:{{bgcolor8}};color:{{textcolor8}};"
+  catchtap="changeColor8">
+机灵
+</view>
+<view class="margincontent" 
+  style="background:{{bgcolor9}};color:{{textcolor9}};"
+  catchtap="changeColor9">
+内向
+</view>
+</view>
+
+<view class="section">
+<view class="margincontent" 
+  style="background:{{bgcolor10}};color:{{textcolor10}};"
+  catchtap="changeColor10">
+活泼
+</view>
+<view class="margincontent" 
+  style="background:{{bgcolor11}};color:{{textcolor11}};"
+  catchtap="changeColor11">
+勇敢
+</view>
+<view class="margincontent" 
+  style="background:{{bgcolor12}};color:{{textcolor12}};"
+  catchtap="changeColor12">
+忠诚
+</view>
+</view>
+
+<view class="section">
+<view class="margincontent" 
+  style="background:{{bgcolor13}};color:{{textcolor13}};"
+  catchtap="changeColor13">
+善变
+</view>
+<view class="margincontent" 
+  style="background:{{bgcolor14}};color:{{textcolor14}};"
+  catchtap="changeColor14">
+优雅
+</view>
+<view class="margincontent" 
+  style="background:{{bgcolor15}};color:{{textcolor15}};"
+  catchtap="changeColor15" display="flex" flex-direction="row">
+凶悍
+</view>
+</view>
+
+<view class="section">
+<view class="margincontentspecial" 
+  style="background:{{bgcolor16}};color:{{textcolor16}};"
+  catchtap="changeColor16" display="flex" flex-direction="row">
+需要空间小
+</view>
+<view class="margincontent" 
+  style="background:{{bgcolor17}};color:{{textcolor17}};"
+  catchtap="changeColor17" display="flex" flex-direction="row">
+气味小
+</view>
+</view>
+
+<view class="section">
+<view class="margincontent" 
+  style="background:{{bgcolor18}};color:{{textcolor18}};"
+  catchtap="changeColor18" display="flex" flex-direction="row">
+观赏性
+</view>
+<view class="margincontent" 
+  style="background:{{bgcolor19}};color:{{textcolor19}};"
+  catchtap="changeColor19" display="flex" flex-direction="row">
+呆萌
+</view>
+<view class="margincontent" 
+  style="background:{{bgcolor20}};color:{{textcolor20}};"
+  catchtap="changeColor20" display="flex" flex-direction="row">
+草食性
+</view>
+</view>
+
+
+
+<text>{{text0}}</text>
+<text>{{text0}}</text>
+<view class="section">
+  <button type="default" catchtap="actionSheetTap" size='mini'>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <van-icon name="search" size="23px"/>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+  <text style="white-space:pre-wrap">{{text1}}</text>
+</button>
+<action-sheet hidden="{{actionSheetHidden}}" bindchange="actionSheetChange">
+    <block wx:for-items="{{actionSheetItems}}">
+        <action-sheet-item  catchtap="bind{{item}}">{{item}}</action-sheet-item>
+    </block>
+    <action-sheet-cancel >取消</action-sheet-cancel>
+</action-sheet>
+</view>
+
+</view>
+
+<!-->
+    </checkbox-group>
+  </view>
+
+  <view class="btn-area">
+    <button form-type="submit" data-id="1">筛选</button>
+    <button form-type="submit" data-id="2">罗列</button>
+    <button form-type="reset">重置</button>
+  </view>
+</form>
+
+</view>-->

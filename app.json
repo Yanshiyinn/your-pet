@@ -1,0 +1,56 @@
+{
+  "usingComponents": {
+    "van-tab": "lib/tab/index",
+    "van-tabs": "lib/tabs/index",
+    "van-button": "lib/button/index",
+    "van-cell": "lib/cell/index",
+    "van-cell-group": "lib/cell-group/index",
+    "van-checkbox": "lib/checkbox/index",
+    "van-checkbox-group": "lib/checkbox-group/index",
+    "van-tag": "lib/tag/index",
+    "van-icon": "lib/icon/index",
+    "van-action-sheet": "lib/action-sheet/index"
+  },
+  "pages": [
+    "pages/zhanshi/zhanshi",
+    "pages/ceshi/ceshi",
+    "pages/about/about",
+    "pages/entry",
+    "pages/like/like"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#ffd18c",
+    "navigationBarTitleText": "YOUR PET",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#ffffff"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#959394",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/zhanshi/zhanshi",
+        "iconPath": "imges/tabbar/1b.png",
+        "selectedIconPath": "imges/tabbar/1a.png",
+        "text": "查看"
+      },
+      {
+        "pagePath": "pages/ceshi/ceshi",
+        "iconPath": "imges/tabbar/2b.png",
+        "selectedIconPath": "imges/tabbar/2a.png",
+        "text": "标签"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "iconPath": "imges/tabbar/3b.png",
+        "selectedIconPath": "imges/tabbar/3a.png",
+        "text": "关于"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

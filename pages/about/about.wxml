@@ -1,0 +1,37 @@
+<!--mine.wxml-->
+
+
+    <image class='background' src="../about/aa.jpg" mode="aspectFill"></image>
+<view>
+  <view class="header">
+    <view class="profile">
+      <image class="avatar" mode="aspectFit" src="{{userInfo.avatar}}"></image>
+      <view class="description">
+        <view class="item">
+          <view style="margin-right:10px">{{userInfo.nickname}}</view>
+          <view>{{userInfo.sex}}</view>
+        </view>
+        <view class="item">{{userInfo.meta}}</view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<van-cell-group>
+  <van-cell title="宠物小测试" value="" is-link  link-type="navigateTo"
+  url="/pages/index/index"
+/>
+  <van-cell title="我的宠物" value="" is-link link-type="navigateTo"
+  url="/pages/like/like"/>
+  <van-cell title="关于"  bindtap='click' is-link />
+  <view hidden="{{hiddenName}}">
+  <image class="left"src="../about/0.png" mode="aspectFill"></image>
+  <view class="right"> <text >CZY </text>
+  <text >JWT </text>
+  <text >ZM </text>
+  <text >LKX </text>
+  </view>
+  </view>
+
+</van-cell-group>
+

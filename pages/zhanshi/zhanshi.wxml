@@ -1,0 +1,47 @@
+<view class="content">
+    <image class='background' src="../about/aa.jpg" mode="aspectFill"></image>
+<van-tabs active="{{ active }}" 
+color="#f90" 
+bind:change="onChange">
+  <van-tab title="狗" >
+  
+<scroll-view scroll-y="true">
+  <van-cell wx:for="{{cal}}" wx:for-index="idx"
+  wx:if="{{idx<5}}" class="item-container" bindtap="showDetail" id="{{idx}}" title="{{item.meta.title}}" is-link />
+</scroll-view>
+
+    </van-tab>
+
+
+
+  <van-tab title="猫" >
+<scroll-view scroll-y="true">
+  <van-cell wx:for="{{cal}}" wx:for-index="idx" 
+  wx:if="{{idx>=5&&idx<10}}"
+  class="item-container" bindtap="showDetail" id="{{idx}}"
+  title="{{item.meta.title}}" is-link />
+</scroll-view>
+   </van-tab>
+
+
+
+  <van-tab title="鸟">
+  <scroll-view scroll-y="true">
+  <van-cell wx:for="{{cal}}" wx:for-index="idx" 
+  wx:if="{{idx>=10&&idx<15}}"
+  class="item-container" bindtap="showDetail" id="{{idx}}"
+  title="{{item.meta.title}}" is-link />
+</scroll-view></van-tab>
+
+
+
+  <van-tab title="其他">
+  <scroll-view scroll-y="true">
+  <van-cell wx:for="{{cal}}" wx:for-index="idx" 
+  wx:if="{{idx>=15&&idx<19}}"
+  class="item-container" bindtap="showDetail" id="{{idx}}"
+  title="{{item.meta.title}}" is-link />
+</scroll-view></van-tab>
+</van-tabs>
+
+</view>

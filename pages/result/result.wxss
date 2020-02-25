@@ -1,0 +1,16 @@
+/* pages/result/result.wxss */
+.background {
+  width: 100%;
+  height: 100%;
+  position:fixed; 
+  background-size:100% 100%;
+  z-index: -1;
+}
+.trytest{
+  padding: 30px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 28px;
+  display: flex;
+  flex-direction: column;
+}

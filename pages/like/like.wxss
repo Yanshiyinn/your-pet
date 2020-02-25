@@ -1,0 +1,12 @@
+
+.myitem-icon{
+ display:flex;                    
+ justify-content: center;         
+}
+.myitem-icon{
+ display:flex;
+ height: 500px;                   
+ justify-content: center;        
+ align-items:center;              
+}
+
