@@ -22,24 +22,16 @@
 
 分为狗、猫、鸟、其他四个类别，可以滑动，每种宠物可以点进详情页查看信息，此时记录用户对此宠物的好感度加1。
 
-<img src="https://wx2.sinaimg.cn/mw1024/a4bfa50fgy1gc8ifirxajj20ba0k6dh4.jpg" alt="img" style="zoom:67%;" /> <img src="https://wx4.sinaimg.cn/mw1024/a4bfa50fgy1gc8ifiqonuj20be0k1q47.jpg" alt="img" style="zoom:67%;" /> <img src="https://wx2.sinaimg.cn/mw1024/a4bfa50fgy1gc8ifirzryj20bf0k47e6.jpg" alt="img" style="zoom:67%;" /> <img src="https://wx4.sinaimg.cn/mw1024/a4bfa50fgy1gc8ig1mohij20bc0k312u.jpg" alt="img" style="zoom:67%;" />
+<img src="https://wx2.sinaimg.cn/mw1024/a4bfa50fgy1gc8ifirxajj20ba0k6dh4.jpg" alt="img" style="zoom:50%;" /> <img src="https://wx4.sinaimg.cn/mw1024/a4bfa50fgy1gc8ifiqonuj20be0k1q47.jpg" alt="img" style="zoom:50%;" /> <img src="https://wx2.sinaimg.cn/mw1024/a4bfa50fgy1gc8ifirzryj20bf0k47e6.jpg" alt="img" style="zoom:50%;" /> <img src="https://wx4.sinaimg.cn/mw1024/a4bfa50fgy1gc8ig1mohij20bc0k312u.jpg" alt="img" style="zoom:50%;" />
 
 ##### 2. 标签页面：
 
 根据用户选择的标签，筛选或罗列符合条件的宠物。筛选是同时符合标签的宠物，罗列是所有具有这些标签特征的宠物。在结果页面可以点进宠物的详情页。如第一组图如果分别选择筛选和罗列。第二组图是筛选的结果，金毛犬和布偶猫同时符合中型和温顺两个标签。第三组图是罗列的结果，其中的乌龟只符合温顺的标签。若没有同时符合几个标签的宠物，即筛选结果为0，显示无同时符合条件的宠物。
 
-<img src="https://wx4.sinaimg.cn/mw1024/a4bfa50fgy1gc8ig1m1q2j20be0k4dhb.jpg" alt="img" style="zoom:67%;" /><img src="https://wx4.sinaimg.cn/mw1024/a4bfa50fgy1gc8ig1l62sj20bd0k5q4b.jpg" alt="img" style="zoom:67%;" />
-
-<img src="https://wx3.sinaimg.cn/mw1024/a4bfa50fgy1gc8ig1nvunj20bd0k63yr.jpg" alt="img" style="zoom:67%;" /> <img src="https://wx1.sinaimg.cn/mw1024/a4bfa50fgy1gc8ig1tltcj20bc0jzak6.jpg" alt="img" style="zoom:67%;" /> <img src="https://wx2.sinaimg.cn/mw1024/a4bfa50fgy1gc8ig1tj3fj20ba0k0tip.jpg" alt="img" style="zoom:67%;" />
-
-<img src="https://wx1.sinaimg.cn/mw690/a4bfa50fgy1gc8ig1rk5mj20bd0k5753.jpg" alt="img" style="zoom:67%;" /> <img src="https://wx4.sinaimg.cn/mw690/a4bfa50fgy1gc8ig1xu02j20bd0k2dq2.jpg" alt="img" style="zoom:67%;" />
-
-<img src="https://wx4.sinaimg.cn/mw690/a4bfa50fgy1gc8ig1se2ej20bb0k6wfy.jpg" alt="img" style="zoom:67%;" /><img src="https://wx4.sinaimg.cn/mw690/a4bfa50fgy1gc8ig1sx1vj20be0k3dg4.jpg" alt="img" style="zoom:67%;" />
+<img src="https://wx4.sinaimg.cn/mw1024/a4bfa50fgy1gc8ig1m1q2j20be0k4dhb.jpg" alt="img" style="zoom:50%;" /><img src="https://wx4.sinaimg.cn/mw1024/a4bfa50fgy1gc8ig1l62sj20bd0k5q4b.jpg" alt="img" style="zoom:50%;" /><img src="https://wx3.sinaimg.cn/mw1024/a4bfa50fgy1gc8ig1nvunj20bd0k63yr.jpg" alt="img" style="zoom:50%;" /> <img src="https://wx1.sinaimg.cn/mw1024/a4bfa50fgy1gc8ig1tltcj20bc0jzak6.jpg" alt="img" style="zoom:50%;" /> <img src="https://wx2.sinaimg.cn/mw1024/a4bfa50fgy1gc8ig1tj3fj20ba0k0tip.jpg" alt="img" style="zoom:50%;" /><img src="https://wx1.sinaimg.cn/mw690/a4bfa50fgy1gc8ig1rk5mj20bd0k5753.jpg" alt="img" style="zoom:50%;" /> <img src="https://wx4.sinaimg.cn/mw690/a4bfa50fgy1gc8ig1xu02j20bd0k2dq2.jpg" alt="img" style="zoom:50%;" /><img src="https://wx4.sinaimg.cn/mw690/a4bfa50fgy1gc8ig1se2ej20bb0k6wfy.jpg" alt="img" style="zoom:50%;" /><img src="https://wx4.sinaimg.cn/mw690/a4bfa50fgy1gc8ig1sx1vj20be0k3dg4.jpg" alt="img" style="zoom:50%;" />
 
 ##### 3. 关于页面：
 
 宠物小测试根据每道题的选项计算分数推荐和分数相匹配的宠物。我的宠物是将用户浏览过的宠物详情页根据次数从大到小罗列。
 
-<img src="https://wx1.sinaimg.cn/mw690/a4bfa50fgy1gc8ig1wos3j20bc0k4jt1.jpg" alt="img" style="zoom:67%;" /> <img src="https://wx3.sinaimg.cn/mw690/a4bfa50fgy1gc8igdvjtjj20bd0k4t93.jpg" alt="img" style="zoom:67%;" />
-
-<img src="https://wx2.sinaimg.cn/mw690/a4bfa50fgy1gc8igdwjacj20b90k6gv1.jpg" alt="img" style="zoom:67%;" /> <img src="https://wx3.sinaimg.cn/mw690/a4bfa50fgy1gc8igdxy1fj20ba0k2wnr.jpg" alt="img" style="zoom:67%;" /> <img src="https://wx1.sinaimg.cn/mw690/a4bfa50fgy1gc8ignv98fj20bb0k47ei.jpg" alt="img" style="zoom:67%;" />
+<img src="https://wx1.sinaimg.cn/mw690/a4bfa50fgy1gc8ig1wos3j20bc0k4jt1.jpg" alt="img" style="zoom:50%;" /> <img src="https://wx3.sinaimg.cn/mw690/a4bfa50fgy1gc8igdvjtjj20bd0k4t93.jpg" alt="img" style="zoom:50%;" /><img src="https://wx2.sinaimg.cn/mw690/a4bfa50fgy1gc8igdwjacj20b90k6gv1.jpg" alt="img" style="zoom:50%;" /> <img src="https://wx3.sinaimg.cn/mw690/a4bfa50fgy1gc8igdxy1fj20ba0k2wnr.jpg" alt="img" style="zoom:50%;" /> <img src="https://wx1.sinaimg.cn/mw690/a4bfa50fgy1gc8ignv98fj20bb0k47ei.jpg" alt="img" style="zoom:50%;" />
